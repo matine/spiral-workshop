@@ -1,0 +1,89 @@
+/*
+* Resetting browser defaults
+*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*
+* Containers
+*/
+body {
+    background: #FFFFFF;
+    font-family: 'Abel', sans-serif;
+}
+
+.row {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 40px 20px 40px 20px;
+}
+
+.row::before,
+.row::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.header {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.footer {
+    background-color: #023338;
+}
+
+.col-image {
+    float: left;
+    width: 40%;
+}
+
+.col-text {
+    float: left;
+    width: 60%;
+    padding: 60px;
+}
+
+/*
+* Typography
+*/
+h2 {
+    font-size: 50px; 
+    font-weight: bold;
+    color: #023338;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 30px;
+    color: #023338;
+}
+ 
+.copyright {
+    color: #FFFFFF;
+}
+
+/*
+* Images
+*/
+.logo {
+    float: left;
+    width: 200px;
+}
+
+.app-image {
+    width: 100%;
+}
