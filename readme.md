@@ -1,3 +1,18 @@
+# Contents
+### 1. Getting started
+
+The files you need to download and how to open them etc. 
+
+### 2. HTML and CSS explained
+
+Some background info on the two languages you will be working with today.
+
+### 3. Your tasks
+
+To customise the webpage template provided with your own images, text and styling.
+
+---
+
 # Getting started
 
 Code is just text on a page, so you could use a default text editor like 'Notepad' on Windows or 'TextEdit' on a mac, but it's easier to read and notice mistakes with better text editors that colour code the text according to the coding language.
@@ -141,16 +156,37 @@ In your `styles.css` you will currently have...
 
 ## 5. Have a play with styling of the page...
 
-[Lists of style rules](https://www.w3schools.com/css/default.asp) - links on the left
+The text elements currently on the page that you would probably want to change are:
 
-The main styles we will be changing are:
+* `p`
+* `h2`
+* `.copyright`
+
+The main styles you may want to change for the text are:
 
 * `color` : #000000; (applies to text)
-* `background-color` : #FFFFFF; (applies to the background colour)
 * `font-size` : 14px;
+
+Note: Colours can also be the name of the colour eg. `'blue'` (has to be in single quotes if it is a colour name). You have more control if it is a hex code colour eg. `#000000`.
+
+The containing elements currently on the page that you would probably want to change are:
+
+* `body`
+* `.header`
+* `.footer`
+* `.col-image`
+* `.col-text`
+
+The main styles you may want to use/change for containing elements are:
+
+* `background-color` : #FFFFFF; (applies to the background colour)
 * `width` : 100px; (can be px or %)
 * `height` : 200px; (if the width is set, the height doesn't usually need to be)
-* `border-bottom` : 1px dotted #CCCCCC (3 values should be given - thickness, type of border, colour)
+* `border-bottom` : 1px dotted #CCCCCC (3 values should be given - thickness, type of border, colour) [more about borders](https://www.w3schools.com/css/css_border.asp)
+
+For spacing on text and containing elements, `padding` and `margin` are used. You probably wouldn't want to change them but if you do, have a read about how they work here: [the box model](https://www.w3schools.com/css/css_boxmodel.asp), [margin](https://www.w3schools.com/css/css_margin.asp), [padding](https://www.w3schools.com/css/css_padding.asp)
+
+You can also find extensive lists of CSS rules [here](https://www.w3schools.com/css/default.asp) (the links on the left)
 
 ## 6. Extra task - add fake links for the Apple Store and Google Play buttons
 
