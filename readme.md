@@ -1,10 +1,24 @@
 # Template webpage
 
+Code is just text on a page, so you could use a default text editor like 'Notepad' on Windows or 'TextEdit' on a mac, but it's easier to read and notice mistakes with better text editors that colour code the text according to the coding language.
+
 1. Download a text editor if you don't have one. [Visual Studio code](https://code.visualstudio.com/) is a good one for both Windows and Mac.
 
 2. Download the files above by clicking the green button and selecting 'download zip'.
 
-3. Open the `index.html` file in a web browser to see the webpage template you will be editing.
+3. There are a few web browsers out there but Google Chrome is an easy one to work with and has built in developer tools. You can download it [https://www.google.co.uk/chrome/](here) if you don't already have it.
+
+4. Open the `index.html` file in your web browser to see the webpage template you will be editing.
+
+5. In Google Chrome you can use the developer tools to inspect the webpage.
+
+Right click on the page and click `inspect`.
+
+![index.html screenshot](./images/screenshots/screenshot-get-web-inspector.png)
+
+You can now see and explore the HTML and CSS of the page (or any webpage).
+
+![index.html screenshot](./images/screenshots/screenshot-inspecting-webpage.png)
 
 4. Open the `index.html` and `style.css` files in a text editor as you will be working on them.
 
@@ -14,7 +28,9 @@
 
 The `index.html` is the content of your webpage.
 
-Very light background reading:
+![index.html screenshot](./images/screenshots/screenshot-html.png)
+
+Light background reading:
 
 [Basic HTML structure explained](https://www.w3schools.com/html/html_basic.asp)
 
@@ -34,6 +50,8 @@ The HTML elements we are using in this template are:
 ## The CSS
 
 The `styles.css` file contains the styling for your webpage.
+
+![styles.css screenshot](./images/screenshots/screenshot-styles.png)
 
 Each set of style rules corresponds to a HTML element, which can either be targetted by the tagname eg `<p>` would be `p`.
 
@@ -81,3 +99,7 @@ The main styles we will be changing are:
 These links are created by and image wrapped by a link tag `<a>` and the link needs to be set in the `href` attribute on the links.
 
 * Can you add links to these in the HTML and see them working?
+
+### Further learning
+
+[A list of learning resources](https://github.com/Nezteb/Teaching_WebDev)
