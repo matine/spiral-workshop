@@ -8,7 +8,7 @@ Code is just text on a page, so you could use a default text editor like 'Notepa
 
 ![index.html screenshot](./images/screenshots/screenshot-download-files.png)
 
-3. There are a few web browsers out there but Google Chrome is an easy one to work with and has built in developer tools. You can download it [https://www.google.co.uk/chrome/](here) if you don't already have it.
+3. There are a few web browsers out there but Google Chrome is an easy one to work with and has built in developer tools. You can download it [here](https://www.google.co.uk/chrome/) if you don't already have it.
 
 4. Open the `index.html` file in your web browser to see the webpage template you will be editing.
 
