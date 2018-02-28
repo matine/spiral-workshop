@@ -57,6 +57,11 @@ body {
     padding: 60px;
 }
 
+.app-button-link {
+    display: inline-block;
+}
+
+
 /*
 * Typography
 */
@@ -86,4 +91,10 @@ p {
 
 .app-image {
     width: 100%;
+}
+
+.app-store-button,
+.google-play-button {
+    width: 150px;
+    margin-top: 20px;
 }
