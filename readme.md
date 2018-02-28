@@ -55,6 +55,7 @@ Or to be more specific, you can add a class attribute to the HTML element `<p cl
 ### Add your own text content
 
 * Find the text in the HTML which will be wrapped in `<p>` and `<h2>` tags, and replace with your own content. So this should be the heading, text and copyright text.
+* You should also change the title of the page (which appears on the tab of the browser window). This is wrapped in a `<title>` tag near the top of the index.html.
 
 ### Add your own font
 

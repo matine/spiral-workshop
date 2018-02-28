@@ -1,5 +1,7 @@
 /*
 * Resetting browser defaults
+* Different browsers display elements slightly differently, so we need to explicitly set some things to ensure consistency accross browsers
+* (You don't need to change these)
 */
 html,
 body {
@@ -18,7 +20,7 @@ html {
 }
 
 /*
-* Containers
+* Container elements
 */
 body {
     background: #FFFFFF;
@@ -31,6 +33,11 @@ body {
     padding: 40px 20px 40px 20px;
 }
 
+/*
+* When elements use a 'float', the wrapping element collapses in height
+* This hack below on the .row element can prevent that.
+* (You don't need to change this)
+*/
 .row::before,
 .row::after {
     display: table;
@@ -46,6 +53,10 @@ body {
     background-color: #023338;
 }
 
+/*
+* A 'float' rule caused the element bump up next to another element that is also floated
+* A percentage width is given on the two floated elements below so they fill the (100% width) space proportionally
+*/
 .col-image {
     float: left;
     width: 40%;
