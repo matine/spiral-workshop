@@ -24,7 +24,7 @@ You can now see and explore the HTML and CSS of the page (or any webpage).
 
 4. Open the `index.html` and `style.css` files in a text editor as you will be working on them.
 
-5. Any time you make a change to either file, you will need to save and then refresh the screen in the browser to see it take effect.
+5. **Remember!** Any time you make a change to either file, you will need to save it (file save in Visual Studio Code) and then refresh the screen in the browser to see it take effect.
 
 ## The HTML
 
@@ -64,11 +64,13 @@ Each set of style rules corresponds to a HTML element, which can either be targe
 Or to be more specific, you can add a class attribute to the HTML element `<p class="copyright">` and in the styles you would use a dot to signify it is a class `.copyright`.
 
 
-## The Task
+## The Tasks
 
 ### Add your own logo
 
 * Put your cut out logo in the images folder.
+
+The image files will need to be `.png` or `.jpg`.
 
 ![index.html screenshot](./images/screenshots/screenshot-add-logo-image.png)
 
