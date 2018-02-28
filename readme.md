@@ -2,7 +2,7 @@
 
 1. Download a text editor if you don't have one. [Visual Studio code](https://code.visualstudio.com/) is a good one for both Windows and Mac.
 
-2. Download the files by clicking the green button and selecting download zip.
+2. Download the files above by clicking the green button and selecting 'download zip'.
 
 3. Open the `index.html` file in a web browser to see the webpage template you will be editing.
 
@@ -14,9 +14,13 @@
 
 The `index.html` is the content of your webpage.
 
+Very light background reading:
+
 [Basic HTML structure explained](https://www.w3schools.com/html/html_basic.asp)
 
-[Basic HTML elements explained](https://www.w3schools.com/html/html_elements.asp)
+[HTML elements explained](https://www.w3schools.com/html/html_elements.asp)
+
+[HTML attributes explained](https://www.w3schools.com/html/html_attributes.asp)
 
 The HTML elements we are using in this template are:
 
