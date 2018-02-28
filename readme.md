@@ -1,12 +1,14 @@
 # Template webpage
 
-1. Download the files by clicking the green button and selecting download zip.
+1. Download a text editor if you don't have one. [Visual Studio code](https://code.visualstudio.com/) is a good one for both Windows and Mac.
 
-2. Open the `index.html` file in a web browser to see the webpage template you will be editing.
+2. Download the files by clicking the green button and selecting download zip.
 
-3. Open the `index.html` and `style.css` files in a text editor as you will be working on them.
+3. Open the `index.html` file in a web browser to see the webpage template you will be editing.
 
-4. Any time you make a change to either file, you will need to save and then refresh the screen in the browser to see it take effect.
+4. Open the `index.html` and `style.css` files in a text editor as you will be working on them.
+
+5. Any time you make a change to either file, you will need to save and then refresh the screen in the browser to see it take effect.
 
 ## The HTML
 
