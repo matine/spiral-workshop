@@ -38,6 +38,10 @@ Light background reading:
 
 [HTML attributes explained](https://www.w3schools.com/html/html_attributes.asp)
 
+HTML elements are represented by tags in the HTML for example a body tag will wrap the entire page and starts like this `<body>` and ends with this `</body>`.
+
+Attributes are additional information given to a HTML element and they start with the attribute name eg `src` (source of the image) and an equals sign `=` and `""` which contains the path to where the image is located.
+
 The HTML elements we are using in this template are:
 
 * `<body>`...`</body>` - A body tag wraps the page content (only ever one on a page) 
@@ -63,8 +67,16 @@ Or to be more specific, you can add a class attribute to the HTML element `<p cl
 ### Add your own logo
 
 * Put your cut out logo in the images folder.
+
+![index.html screenshot](./images/screenshots/screenshot-add-logo-image.png)
+
 * In the HTML file, find where the current logo is `<img class="logo" src="./images/logo.jpg" alt="Spiral" />` and replace the file name `logo.jpg` with your own, and also the `alt` attribute text with the name and slogan (this will be hidden but is needed for accessibility and SEO etc).
+
+![index.html screenshot](./images/screenshots/screenshot-logo-html.png)
+
 * In the CSS file, find where it says `.logo` - these are the style rules that define what the logo looks like on the page. You can change the width here to suit your logo.
+
+![index.html screenshot](./images/screenshots/screenshot-logo-styles.png)
 
 ### Add your own app image
 
