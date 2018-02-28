@@ -1,4 +1,4 @@
-# GETTING STARTED
+# Getting started
 
 Code is just text on a page, so you could use a default text editor like 'Notepad' on Windows or 'TextEdit' on a mac, but it's easier to read and notice mistakes with better text editors that colour code the text according to the coding language.
 
@@ -34,7 +34,7 @@ You can now see and explore the HTML and CSS of the page (or any webpage).
 
 ---
 
-# HTML AND CSS EXPLAINED
+# HTML and CSS explained
 
 ## The HTML
 
@@ -69,13 +69,17 @@ The `styles.css` file contains the styling for your webpage.
 
 ![screenshot](./images/screenshots/screenshot-styles.png)
 
-Each set of style rules corresponds to a HTML element, which can either be targetted by the tagname eg `<p>` would be `p`.
+Each set of style rules corresponds to a HTML element, which can either be targetted by the tagname eg. `<p>` in the HTML would be `p` followed by an opening brace `{` ... the list of style rules ... and then a closing brace `}` in the CSS.
 
-Or to be more specific, you can add a class attribute to the HTML element `<p class="copyright">` and in the styles you would use a dot to signify it is a class `.copyright`.
+Or if you need to be more specific, you can add a 'class' attribute to the HTML element eg. `<p class="copyright">` here a classname 'copyright' has been added to the 'p' element. And in the styles you would use a dot to signify it is a class like so `.copyright`.
+
+![screenshot](./images/screenshots/screenshot-css-rules.png)
+
+In the example above, all text wrapped in a `<p>` tag will be the dark green colour and 30px in size. But the text in the `<p>` that has the class attribute called 'copyright' will be the white in colour. This is because you are targeting it specifically by class name which has a stronger effect.
 
 ---
 
-# YOUR TASKS
+# Your tasks
 
 ### Add your own logo
 
