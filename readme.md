@@ -1,4 +1,4 @@
-# Template webpage
+# GETTING STARTED
 
 Code is just text on a page, so you could use a default text editor like 'Notepad' on Windows or 'TextEdit' on a mac, but it's easier to read and notice mistakes with better text editors that colour code the text according to the coding language.
 
@@ -6,31 +6,41 @@ Code is just text on a page, so you could use a default text editor like 'Notepa
 
 2. Download the files above by clicking the green button and selecting 'download zip'.
 
-![index.html screenshot](./images/screenshots/screenshot-download-files.png)
+![screenshot](./images/screenshots/screenshot-download-files.png)
 
 3. There are a few web browsers out there but Google Chrome is an easy one to work with and has built in developer tools. You can download it [here](https://www.google.co.uk/chrome/) if you don't already have it.
 
-4. Open the `index.html` file in your web browser to see the webpage template you will be editing.
+4. Open the `index.html` file in your web browser to see the webpage.
+
+![screenshot](./images/screenshots/screenshot-open-in-browser.png)
 
 5. In Google Chrome you can use the developer tools to inspect the webpage.
 
 Right click on the page and click `inspect`.
 
-![index.html screenshot](./images/screenshots/screenshot-get-web-inspector.png)
+![screenshot](./images/screenshots/screenshot-get-web-inspector.png)
 
 You can now see and explore the HTML and CSS of the page (or any webpage).
 
-![index.html screenshot](./images/screenshots/screenshot-inspecting-webpage.png)
+![screenshot](./images/screenshots/screenshot-inspecting-webpage.png)
 
 4. Open the `index.html` and `style.css` files in a text editor as you will be working on them.
 
+**Note:** The `index.html` file is the content of your webpage. When it's open in a browser it looks like a webpage and when it's open in a text editor (like Visual Studio code) it shows the code that creates the webpage.
+
+![screenshot](./images/screenshots/screenshot-open-code-view.png)
+
 5. **Remember!** Any time you make a change to either file, you will need to save it (file save in Visual Studio Code) and then refresh the screen in the browser to see it take effect.
+
+---
+
+# HTML AND CSS EXPLAINED
 
 ## The HTML
 
 The `index.html` is the content of your webpage.
 
-![index.html screenshot](./images/screenshots/screenshot-html.png)
+![screenshot](./images/screenshots/screenshot-html.png)
 
 Light background reading:
 
@@ -57,14 +67,15 @@ The HTML elements we are using in this template are:
 
 The `styles.css` file contains the styling for your webpage.
 
-![styles.css screenshot](./images/screenshots/screenshot-styles.png)
+![screenshot](./images/screenshots/screenshot-styles.png)
 
 Each set of style rules corresponds to a HTML element, which can either be targetted by the tagname eg `<p>` would be `p`.
 
 Or to be more specific, you can add a class attribute to the HTML element `<p class="copyright">` and in the styles you would use a dot to signify it is a class `.copyright`.
 
+---
 
-## The Tasks
+# YOUR TASKS
 
 ### Add your own logo
 
@@ -72,15 +83,15 @@ Or to be more specific, you can add a class attribute to the HTML element `<p cl
 
 The image files will need to be `.png` or `.jpg`.
 
-![index.html screenshot](./images/screenshots/screenshot-add-logo-image.png)
+![screenshot](./images/screenshots/screenshot-add-logo-image.png)
 
 * In the HTML file, find where the current logo is `<img class="logo" src="./images/logo.jpg" alt="Spiral" />` and replace the file name `logo.jpg` with your own, and also the `alt` attribute text with the name and slogan (this will be hidden but is needed for accessibility and SEO etc).
 
-![index.html screenshot](./images/screenshots/screenshot-logo-html.png)
+![screenshot](./images/screenshots/screenshot-logo-html.png)
 
 * In the CSS file, find where it says `.logo` - these are the style rules that define what the logo looks like on the page. You can change the width here to suit your logo.
 
-![index.html screenshot](./images/screenshots/screenshot-logo-styles.png)
+![screenshot](./images/screenshots/screenshot-logo-styles.png)
 
 ### Add your own app image
 
@@ -94,8 +105,24 @@ The image files will need to be `.png` or `.jpg`.
 ### Add your own font
 
 * Find a font you like from [Google web fonts](https://fonts.google.com/)
-* Once you click on the red plus icon, the font will appear in a black box at the bottom. Click the box to view the font you have selected (making sure it is just one font).
+
+For example the 'Lobster' font.
+
+![screenshot](./images/screenshots/screenshot-font-family.png)
+
+* Click on the red plus icon, the font will appear in a black box at the bottom. Click the box to view the font you have selected (making sure it is just one font).
+
+![screenshot](./images/screenshots/screenshot-font-family-selected.png)
+
 * It gives code snippets for both the HTML and the CSS. Find the similar code snippets in this template and replace with your own.
+
+In your `index.html` you will currently have...
+
+![screenshot](./images/screenshots/screenshot-html-link-to-font.png)
+
+In your `styles.css` you will currently have...
+
+![screenshot](./images/screenshots/screenshot-font-in-css.png)
 
 ### Have a play with styling of the page...
 
